@@ -14,6 +14,10 @@
     .font{
       font-family: 'Lato', sans-serif;
     }
+    .test:after {
+      content: '\2807';
+      font-size: 20px;
+  }
   </style>
     <script>
         tailwind.config = {
@@ -123,13 +127,288 @@
         </div>
       </div>
 
-      <div class="absolute lg:flex bg-[#FFF] w-3/4 rounded-xl justify-center mr-36 ml-36 -mt-16 hidden lg:visible md:visible">
-        <img src="./images/fruit1.png" alt="">
-        <img src="./images/fruit2.png" alt="">
-        <img src="./images/fruit3.png" alt="">
-        <img src="./images/fruit4.png" alt="">
-        <img src="./images/fruit5.png" alt="">
+      <div class="absolute lg:flex bg-[#FFF] w-3/4 rounded-xl justify-center text-center mr-36 ml-36 -mt-16 hidden lg:visible pb-5 gap-10 md:visible drop-shadow-2xl">
+        <div>
+          <img src="./images/fruit1.png" alt="">
+          <span>Strawberry</span>
+        </div>
+        <div>
+          <img src="./images/fruit2.png" alt="">
+          <span>Orange</span>
+        </div>
+        <div>
+          <img src="./images/fruit3.png" alt="">
+          <span>Mango</span>
+        </div>
+        <div>
+          <img src="./images/fruit4.png" alt="">
+          <span>Strawberry</span>
+        </div>
+        <div>
+          <img src="./images/fruit5.png" alt="">
+          <span>Mango</span>
+        </div>
+
       </div>
   </header>
+  <main class="container mx-auto">
+    <section class="lg:mt-36 md:mt-36">
+      <div class="flex justify-between items-center text-center md:text-start lg:text-start  flex-col md:flex-row lg:flex-row">
+        <div class=" w-full md:w-1/2 lg:w-1/2 md:pl-3">
+          <h4 class="text-3xl font-bold mb-3">Deal of the day</h4>
+          <p class="text-0">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class="flex items-center justify-between gap-3 mt-8 lg:mt-0">
+          <div>
+            <h2 class="font-bold text-3xl">29</h2>
+            <p>Days</p>
+          </div>
+          <div class="test"></div>
+          <div>
+            <h2 class="font-bold text-3xl" >15</h2>
+            <p>Hours</p>
+          </div>
+          <div class="test"></div>
+          <div>
+            <h2 class="font-bold text-3xl">25</h2>
+            <p>Minutes</p>
+          </div>
+          <div class="test"></div>
+          <div>
+            <h2 class="font-bold text-3xl">08</h2>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:mt-4 lg:mt-4 gap-5 pl-4 md:pl-0 lg:pl-0">
+        <div class="card border-2 border-gray-300 rounded-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit6.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="w-36 h-0.5 mx-auto bg-gray-500 border-0 rounded">
+            <p>Apples</p>
+            <div class="rating rating-lg rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            </div>
+            <div class="card-actions">
+              <a href="#my_modal_8" class="text-[#F85559] mt-5">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="card border-2 border-gray-300 rounded-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit7.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="w-36 h-0.5 mx-auto bg-gray-500 border-0 rounded">
+            <p>Orange</p>
+            <div class="rating rating-lg rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            </div>
+            <div class="card-actions">
+              <a href="#my_modal_9" class="text-[#F85559] mt-5">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="card border-2 border-gray-300 rounded-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit8.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="w-36 h-0.5 mx-auto bg-gray-500 border-0 rounded">
+            <p>Red Dragon</p>
+            <div class="rating rating-lg rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            </div>
+            <div class="card-actions">
+              <a href="#my_modal_10" class="text-[#F85559] mt-5">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="card border-2 border-gray-300 rounded-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit9.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="w-36 h-0.5 mx-auto bg-gray-500 border-0 rounded">
+            <p>Banana</p>
+            <div class="rating rating-lg rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+              <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            </div>
+            <div class="card-actions">
+              <a href="#my_modal_11" class="text-[#F85559] mt-5">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <div class="modal" id="my_modal_8">
+    <div class="modal-box text-center">
+      <div class="card">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit6.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Apple</h2>
+          <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating rating-lg rating-half">
+            <input type="radio" name="rating-10" class="rating-hidden" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-action text-center flex justify-center">
+       <a href="#" class="btn">Close</a>
+       <button class="btn btn-error">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="my_modal_9">
+    <div class="modal-box text-center">
+      <div class="card">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit7.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Orange</h2>
+          <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating rating-lg rating-half">
+            <input type="radio" name="rating-10" class="rating-hidden" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-action text-center flex justify-center">
+       <a href="#" class="btn">Close</a>
+       <button class="btn btn-error">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="my_modal_10">
+    <div class="modal-box text-center">
+      <div class="card">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit8.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Red Dragon</h2>
+          <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating rating-lg rating-half">
+            <input type="radio" name="rating-10" class="rating-hidden" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-action text-center flex justify-center">
+       <a href="#" class="btn">Close</a>
+       <button class="btn btn-error">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="my_modal_11">
+    <div class="modal-box text-center">
+      <div class="card">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit9.png" alt="" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Banana</h2>
+          <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating rating-lg rating-half">
+            <input type="radio" name="rating-10" class="rating-hidden" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+            <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-action text-center flex justify-center">
+       <a href="#" class="btn">Close</a>
+       <button class="btn btn-error">Buy Now</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
